@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Black Myth:Wu kong",
+    "picture": "/images/Black_Myth_Wukong.jpg",
+    "detail": "Black Myth: Wukong is a 2024 action role-playing game developed and published by Game Science. The game is inspired by the classical Chinese novel Journey to the West and follows an anthropomorphic monkey based on Sun Wukong from the novel.",
+    "salesVolume": 1000000,
+    "score":"9.0"
+  },
+  {
+    "id": 2,
+    "name": "God Of War Ragnarok",
+    "picture": "/images/God_of_War_Ragnarok.jpg",
+    "detail": "God of War Ragnarök is a 2022 action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. It was released worldwide on November 9, 2022, for both the PlayStation 4 and PlayStation 5, marking the first cross-gen release in the God of War series, and was released for Windows on September 19, 2024.",
+    "salesVolume": 3000000,
+    "score":"8.9"
+  },
+  {
+    "id": 3,
+    "name": "God Of War4",
+    "picture": "/images/God_of_War_4.jpg",
+    "detail": "God of War[b] is a 2018 action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. The game was released for the PlayStation 4 in April 2018, with a Windows port released in January 2022. It is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III.",
+    "salesVolume": 2000000,
+    "score":"9.5"
+  }
+]

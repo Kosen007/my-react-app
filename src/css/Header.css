@@ -1,0 +1,38 @@
+/* Header css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+/* Logo css */
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+/* Nav-links css */
+.nav-links {
+  display: flex;
+  gap: 20px; /* distance beween links */
+  padding: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* search css */
+.icon {
+  cursor: pointer;
+}
+
+.icon img {
+  width: 30px;
+  height: auto;
+}

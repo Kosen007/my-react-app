@@ -1,0 +1,341 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.logo-style {
+  position: fixed;
+  left: 0;
+  width: 10vw;
+  height: auto;
+}
+.text-block {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.body {
+  font-size: 10px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.game-detail {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.game-image img {
+  width: 150px;
+  height: auto;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.game-name {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.game-details {
+  font-size: 15px;
+  color: #555;
+}
+
+.newest-game-banner {
+  background-color: #ffeb3b;
+  padding: 0px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; 
+}
+
+/* Game Updates banner with full width and background color */
+.game-updates-banner {
+  width: 100%;
+  background-color: lightblue;
+  padding: 0px;
+  text-align: left;
+}
+
+/* Container for the updates section */
+.updates-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+/* Left part: Updates text */
+.updates-text {
+  width: 50%;
+  text-align: left;
+  padding: 0px;
+}
+
+/* Center divider */
+.divider {
+  width: 1px;
+  height: 100%;
+  background-color: black;
+  margin: 0 20px;
+}
+
+/* Right part: Social section */
+.social-section {
+  width: 45%;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Social links title and icon layout */
+.social-section h2 {
+  margin-bottom: 30px;
+}
+
+/* Social links in a row */
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.social-links .social-link {
+  margin: 0 10px;
+}
+
+.social-links img {
+  width: 40px; /* Adjust size as needed */
+  height: auto;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.game-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; /* 给左右边留出一些距离 */
+}
+
+.game-link {
+  cursor: pointer;
+}
+
+.game-image-small {
+  width: 100px;
+  height: auto; /* 自动调整高度以保持比例 */
+}
+
+.support-container {
+  width: 96%;
+  max-width: 100%;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.question-block {
+  margin-bottom: 10px;
+}
+
+.question {
+  background-color: #333; /* 深灰色 */
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question .arrow {
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.question .arrow.open {
+  transform: rotate(180deg); /* 当展开时箭头旋转180度 */
+}
+
+.answer {
+  background-color: #f0f0f0; /* 浅灰色 */
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+/* Container for the entire contact page */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Contact form layout */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 20px;
+  width: 60%;
+  margin-top: 20px;
+}
+
+/* Left section for input fields */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 45%;
+}
+
+/* Right section for textarea and checkbox */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 45%;
+  align-items: flex-start;
+}
+
+/* Input fields and textarea */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa;
+}
+
+textarea {
+  height: 80px; /* 假设输入框高度为40px，设置TextArea为两倍 */
+}
+
+/* Not robot checkbox section */
+.not-robot-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+/* Submit button */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.game-inquiry-container {
+  padding: 20px;
+}
+
+.games-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.game-card {
+  flex: 1 1 calc(33.33% - 20px);  /* 每个卡片占据三分之一的宽度，并留有间距 */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.game-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .game-card {
+    flex: 1 1 calc(50% - 20px);  /* 在小屏幕上每行显示两张图片 */
+  }
+}
+
+@media (max-width: 480px) {
+  .game-card {
+    flex: 1 1 100%;  /* 在超小屏幕上每行显示一张图片 */
+  }
+}
