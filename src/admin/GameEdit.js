@@ -98,7 +98,10 @@ const GameEdit = () => {
     e.preventDefault();
     
     let s3Url = updatedGame.picture;
-console.log(process.env.REACT_APP_S3_BUCKET_NAME)
+console.log("Bucket Name:", process.env.REACT_APP_S3_BUCKET_NAME);
+console.log("Access Key ID:", process.env.REACT_APP_AWS_ACCESS_KEY_ID);
+console.log("Secret Access Key:", process.env.REACT_APP_AWS_SECRET_ACCESS_KEY);
+console.log("Region:", process.env.REACT_APP_AWS_REGION);
     if (selectedFile) {
       // 设置 S3 上传参数
       const params = {
@@ -106,7 +109,6 @@ console.log(process.env.REACT_APP_S3_BUCKET_NAME)
         Key: `images/${selectedFile.name}`, // 保存到 S3 的文件路径
         Body: selectedFile,
         ContentType: selectedFile.type,
-//         ACL: 'public-read', // 确保文件可以公开访问
       };
 
       // 上传文件到 S3
